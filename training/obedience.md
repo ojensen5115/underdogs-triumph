@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Obedience & Manners
 categories: Training
 featured-img: mishka

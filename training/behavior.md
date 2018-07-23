@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Behavioral Consulting
 categories: Training
 featured-img: leocrop
