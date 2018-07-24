@@ -8,6 +8,6 @@ description: >
   You can read more about snuffle mats here: http://www.paw5.us/blog/what-is-a-snuffle-mat/
 extra:
   weight: 32oz
-  dimensions: 10 x 10 x 2 inches
+  dimensions: 10 x 10 x 2 in
 ---
 hello

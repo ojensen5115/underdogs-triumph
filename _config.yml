@@ -9,6 +9,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ojensen5115.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections_dir: collections
+
 collections:
   training_options:
     output: true
@@ -16,6 +17,13 @@ collections:
   shop_items:
     output: true
     permalink: /shop/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: shop_items
+    values:
+      layout: shop_item
 
 # SEO PLUGIN
 social:

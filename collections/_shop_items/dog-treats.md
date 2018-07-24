@@ -17,6 +17,6 @@ options:
   - Peanut Butter Nuggets
 extra:
   weight: 16oz
-  dimensions: 3.5 x 2.4 x 6.8 inches
+  dimensions: 3.5 x 2.4 x 6.8 in
 ---
 hello
