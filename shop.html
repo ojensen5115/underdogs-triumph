@@ -1,0 +1,9 @@
+---
+layout: page
+title: Shop
+---
+<div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+    {% for item in site.shop_items %}
+        {% include card-shop.html %}
+    {% endfor %}
+</div>

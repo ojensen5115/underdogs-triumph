@@ -5,8 +5,17 @@ description: > # Meta description of Homepage
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/underdogs-triumph" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ojensen5115.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+collections_dir: collections
+collections:
+  training_options:
+    output: true
+    permalink: /training/:name
+  shop_items:
+    output: true
+    permalink: /shop/:name
 
 # SEO PLUGIN
 social:
@@ -73,3 +82,4 @@ compress_html:
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-money
