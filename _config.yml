@@ -11,6 +11,9 @@ url: "https://ojensen5115.github.io" # the base hostname & protocol for your sit
 collections_dir: collections
 
 collections:
+  people:
+    output: true
+    permalink: /about/:name
   training_options:
     output: true
     permalink: /training/:name
@@ -24,6 +27,11 @@ defaults:
       type: shop_items
     values:
       layout: shop_item
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: page
 
 # SEO PLUGIN
 social:
