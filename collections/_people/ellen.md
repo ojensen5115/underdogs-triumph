@@ -1,6 +1,7 @@
 ---
 name: Ellen Hartstack
 photo: /foo/bar.jpg
+order: 1
 ---
 
 Ellen Hartstack is the director of Underdog’s Triumph. She has previously worked for over 10 years at the [TLC Canine Center](https://www.tlccaninecenter.org/) in Newell, IA rehabilitating, evaluating, and training the rescued dogs there. She is a lifelong-learner in dog behavior and training methods, and is eager to try new things. She received her certification as a professional dog trainer via the [CATCH Canine Training Academy](http://catchdogtrainers.com/) and a participant in the [Spring into Transformation Naughty but Nice](http://nbn.absolute-dogs.com/3-minute-gamechanger-fo) professional program. She is a member of multiple online resources such as the [Association of Professional Dog Trainings (APDT)](https://apdt.com/) and Naughty but Nice by Absolute Dogs. Ellen continues to be educated on the latest dog force/fear free dog training methods via dog training/behavioral books, and seminars/videos by renowned behaviorists like Ian Dunbar or Victoria Stilwell.

@@ -15,8 +15,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 # Team
 
+{% assign people = site.people | sort: 'order' %}
 <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-    {% for person in site.people %}
+    {% for person in people %}
         {% include card-person.html %}
     {% endfor %}
 </div>
