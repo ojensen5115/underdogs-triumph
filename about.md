@@ -11,6 +11,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 [Learn more]({{ "/mission" | relative_url }})
 
+<hr>
+
 # Team
 
 <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
@@ -19,13 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     {% endfor %}
 </div>
 
-[Learn more]({{ "/team" | relative_url }})
-
-# Contact
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-
-[Learn more]({{ "/contact" | relative_url }})
+<hr>
 
 # Events
 

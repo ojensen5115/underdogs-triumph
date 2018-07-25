@@ -5,7 +5,7 @@ description: > # Meta description of Homepage
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ojensen5115.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections_dir: collections
@@ -51,6 +51,7 @@ navigation: # Navigation links
   - {name: 'In-Home Training', link: '/training'}
   - {name: 'Shop', link: '/shop'}
   - {name: 'Blog', link: '/blog'}
+  - {name: 'Contact', link: '/contact'}
   - {name: 'Donate', link: '/donate'}
 
 tagline: >
