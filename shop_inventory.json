@@ -1,0 +1,10 @@
+---
+# DO NOT MODIFY THIS FILE
+# It automatically generates validation data for shop items, and is used by Amazon Lambda to prevent tampering with shop prices.
+---
+
+{
+{% for item in site.shop_items %}
+    "{{ item.name | replace: "\", "\\\" | replace: '"', '\"' }}": {{ item.price }}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+}
