@@ -1,0 +1,74 @@
+---
+#layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+
+  {% include head.html %}
+
+  <body class="site">
+
+    {% if site.google_tag_manager %}
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    {% include header.html %}
+
+    <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
+      <div class="hero__wrap">
+        <h1 class="hero__title">{{ site.title | escape }}</h1>
+        <p class="hero__meta">{{ site.tagline }}</p>
+      </div>
+    </div>
+
+    <main class="site__content">
+
+      <section class="blog content">
+        <div class="container">
+
+          <p class="mission" style="padding: 20px 0">
+            This is our mission, in no more than 3 to 4 sentences.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+
+          <div class="section" style="padding-bottom: 30px">
+            <h1>Upcoming Events</h1>
+            {% for event in site.events %}
+              {{ event.name }}<br>
+            {% endfor %}
+            <p>... turn this into fancy cards like the blog posts ...</p>
+            <a href="{{ site.baseurl }}{% link events.md %}">See more events</a>
+          </div>
+
+          <div class="section" style="padding-bottom: 30px">
+            <h1>Recent Blog Posts</h1>
+            <div class="post-list" itemscope="" itemtype="http://schema.org/Blog" style="padding-top: 0">
+              {% for post in site.posts limit: 3 %}
+                {% include card.html %}
+              {% endfor %}
+            </div>
+            <a href="{{ site.baseurl }}{% link blog.md %}">Read more posts</a>
+          </div>
+
+          <div class="section" style="padding-bottom: 30px">
+            <h1>Projects</h1>
+            ...
+          </div>
+
+
+        </div>
+      </section>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

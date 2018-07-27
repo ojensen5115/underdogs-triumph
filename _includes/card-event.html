@@ -1,0 +1,33 @@
+<div class="event-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <a href="{{ event.url | relative_url }}">
+    {% if event.featured-img %}
+      <figure class="post-card__thumb">
+        <img
+          src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{event.featured-img}}_placehold.jpg",
+          data-srcset="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{event.featured-img}}_thumb.jpg, {{ site.url }}{{ site.baseurl }}/assets/img/posts/{{event.featured-img}}_thumb@2x.jpg 2x"
+          class="lazyload blur"
+          alt="{{event.title}}"
+        />
+        <noscript><img src="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{event.featured-img}}_thumb.jpg" alt="{{ event.title }}"></noscript>
+      </figure>
+    {% else %}
+      <figure class="post-card__thumb">
+        <div class="dark-bg"></div>
+      </figure>
+    {% endif %}
+  </a>
+  <a class="post-card__inner" href="{{ event.url | relative_url }}">
+    <div class="post-card__header">
+      <h2>{{ event.title | strip_html | truncate: 50 }}</h2>
+      {% assign date_format = site.sleek.date_format | default: "%b %-d, %Y" %}
+      <span class="post-card__meta">
+        <time>{{ event.date | date: date_format }}</time>
+      </span>
+    </div>
+    {% if event.summary %}
+      <p>{{ event.summary | strip_html | truncatewords:20 }}</p>
+    {% else %}
+      <p>{{ event.content | strip_html | truncatewords: 20 }}</p>
+    {% endif %}
+  </a>
+</div>

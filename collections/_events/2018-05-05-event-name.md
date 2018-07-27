@@ -1,5 +1,6 @@
 ---
 name: Event Name
+time: 2018-05-05 14:40
 location: 0000 Beepbeep Rd Ames, IA
 ---
 

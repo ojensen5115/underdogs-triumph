@@ -26,6 +26,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:title
+  posts:
+    output: true
+    permalink: /blog/:title
 
 defaults:
   - scope:
@@ -61,10 +64,11 @@ navigation: # Navigation links
   - {name: 'Donate', link: '/donate'}
 
 tagline: >
-  Spreading positive and force free training to shelters, fosters and the general public
+  Spreading positive and force free training to shelters, fosters and the general public.
 
 #hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 hero_img: dogs.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+blog_img: blog.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: ojensen5115@gmail.com # email for form submission
 
@@ -77,7 +81,7 @@ github_username:  ojensen5115 # replace with your_github_username or comment to 
 
 # google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
 
-#service_worker: true
+service_worker: true
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -95,6 +99,7 @@ exclude:
   - npm-debug.log
   - gulpfile.js
   - sleek.jpg
+  - CNAME
 
 include: ['_pages']
 permalink: /:title/
