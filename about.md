@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: page-hero
 title: About Underdog's Triumph
 summary: Learn about Underdog's Triumph and who's behind it
-featured-img: emile-perron-190221
+featured-img: mishka-chair
 ---
 
 # Mission
