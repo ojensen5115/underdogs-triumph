@@ -1,10 +1,12 @@
 ---
 layout: page-hero
 title: Contact Us
-featured-img: anko-snow
+summary: >
+  We'd love to hear from you!
+featured-img: anko-smile
 ---
 
-We’d love to hear from you because we believe strongly that working together we can help end dog overpopulation, improve the bond between owner and dog and make the world a better, safer place for all our four legged friends. You can contact us via email by filling out the contact form below, or send snail-mail to:
+We believe that working together we can help end dog overpopulation, improve the bond between owner and dog and make the world a better, safer place for all our four legged friends. You can contact us via email by filling out the contact form below, or send snail-mail to:
 
 <address>
 Underdogs’ Triumph<br>
