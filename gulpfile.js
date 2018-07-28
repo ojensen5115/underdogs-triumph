@@ -165,6 +165,20 @@ gulp.task('sw', function() {
 
 // Images
 gulp.task('img', function() {
+
+  // hero pages
+  gulp.src('_img/pages/*.{png,jpg}')
+    .pipe($.responsive({
+      '*': [{width: 1920}]
+    }, {
+      quality: 70,
+      progressive: true,
+      withMetadata: false,
+      errorOnEnlargement: false
+    }))
+    .pipe(gulp.dest('assets/img/pages'));
+
+  // post pages
   return gulp.src('_img/posts/*.{png,jpg}')
     .pipe($.responsive({
       // For all the images in the folder

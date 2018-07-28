@@ -20,7 +20,8 @@
 {% include header.html %}
 
   {% if page.featured-img %}
-  <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.featured-img }}.jpg">
+  <!-- <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/pages/{{ page.featured-img }}.jpg"> -->
+  <div class="hero" style="background-image: url({{ site.url }}{{ site.baseurl }}/assets/img/pages/{{ page.featured-img }}.jpg)">
   {% else %}
   <div class="hero dark-bg">
   {% endif %}
