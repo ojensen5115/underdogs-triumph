@@ -2,7 +2,7 @@
 layout: page-hero
 title: In-Home Training
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-featured-img: leo
+featured-img: leo-crop
 ---
 
 We offer a wide range of in-your-home behavioral consultations and training sessions for the Ames/Boone and surrounding areas. The fees from these sessions are donations to the Underdog’s Triumph non-profit organization and will go towards helping other lost, abandoned, abused or neglected canines in the area.

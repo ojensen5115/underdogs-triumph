@@ -2,7 +2,7 @@
 layout: page-hero
 title: About Underdog's Triumph
 summary: Learn about Underdog's Triumph and who's behind it
-featured-img: mishka-chair
+featured-img: mishka-snow
 ---
 
 # Mission
