@@ -1,0 +1,24 @@
+---
+layout: post
+title: Training VS Behavioral Adjustment
+# summary: Here's a quick summary of the post
+author: Ellen
+featured-img: training-vs-behavioral-adjustment
+categories: [Training, Behavior, Punishment]
+---
+
+When I first started Underdog’s Triumph, I used two have two different services, one was for people who were dealing with training issues like sit, come, stay, etc and another, more expensive service, for those dealing with serious behavioral issues like fear or reactivity to dogs or people. After just a few clients, I quickly realized that the average person doesn’t understand the difference between those two types of issues. Your typical dog owner sees things more along the line of “My dog does X and I want them to Y.”
+
+Let’s talk a bit about while these two situations are similar, they are also very different. Let’s start with the easier of the two: training. Training is teaching the dog a new behavior and pairing this new behavior with a word or hand signal so you can cue it on demand. You might want to have your dog learn how to sit, or stand, or hold his paw out so you can trim his nail. These are all behaviors we can easily get your dog to perform.
+
+What makes it a behavioral issue is when your dog has some strong emotion tied to the behavior you are trying to change. Aka the dog jumps on people because they are extreme scared of them not because he likes jumping. With behavioral issues, common training behaviors become symptoms of an underlying emotional cause. When the human component fails to realize this, it’s easy to try and treat just the symptoms, train alternative behaviors. Aka teach the dog to keep four paws on the floor. However, the emotions behind why the dog was jumping are still there. S/he is still feeling scared and unsure they just can’t jump to express those emotions any more.
+
+This leads me to a reminder about corrective or punishment based training tools like prong, choke or shock. These tools work by punishing the unwanted behavior. They do nothing to teach the dog what to do only what not to do (and trust me the “not to do” list is *wayyyyy* longer). When you use corrective tools studies have shown ([see last weeks article](https://www.underdogstriumph.org/choosing-a-dog-training-method/)) the dog tends to learn slower and require more repeated punishments or increase in the strength of those punishments to be effective. Dogs who have been training using these methods have a higher amount of stress hormones and show more stress signals during training sessions and when these devices are used.
+
+Interestingly, there was a study done that showed these devices can leave a lasting impact on the dog. A dog was trained using punishment based tools in a specific room. Then three months later brought back to that room. Upon entering, they saw an immediate increase in those same stress hormones despite no punishment being used. Three months later and the dog still remembers that fear and stress.
+
+In training issues, when you use punishment you will start to see a dog that shutsdown. Because you punish a majority of their actions, these dogs become less sure & less willing to act for fear of being punished. Dogs trained using these methods are more likely to develop behavioral issues, especially when used by inexperienced clients, due to poor timing, unclear criteria for what gets punished, and the use of too many or too harsh of punishments. And it’s not just the dog who suffers from these methods. The human component easily gets frustrated by the lack of progress and it creates an adversarial relationship between human and canine.
+
+With behavioral issues when you use punishment, you see all the above plus the original unwanted behavior tends to get worse or the dog develops another unwanted behavior to deal with the emotions s/he are feeling. You might be able to prevent some of the unwanted symptoms but you’ve add something more negative & unpleasant to the issue. A great example of how this works is when you punish a dog for growling. Commonly, these growls are punished by owners who what this symptom to stop. The dog, who was already unsure/fearful, now has two things to worry about, you (giving him the punishment) and whatever they were unsure/fearful of in the first place. Additionally you’ve made it harder for people to know when a dog is afraid of something. Before, you had an early warning bite detection system (the growl) and now you’ve disabled that and created a dog that “bites out of nowhere.”
+
+Punishment based “training” has no place in addressing either training or behavioral issues. They tend to make issues worse (especially in the hands of novice trainers) and damage the relationship between you and your dog. I want a happy, fear free dog who’s eager to please and who works *with* me everyday. Force free, positive training methods get me there!
