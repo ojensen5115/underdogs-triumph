@@ -1,6 +1,6 @@
 ---
 name: Snuffle Mat
-price: 1500
+price: 15
 summary: Engage your dog mentally and physically by feeding them with a handmade colorful snuffle mat!
 extra:
   weight: 32 oz

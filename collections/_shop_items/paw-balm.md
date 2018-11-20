@@ -1,6 +1,6 @@
 ---
 name: Paw Balm
-price: 300
+price: 3
 summary: Protect your pet’s paws from all the nasty salt and chemicals put on sidewalks and roads each winter!
 extra:
   weight: 1 oz

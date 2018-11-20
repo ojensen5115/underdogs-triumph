@@ -1,11 +1,12 @@
 ---
 name: Dog treats
-price: 500
+price: 5
 summary: These homemade dog treats are made to order and come in three tasty varieties!
 options:
   - Better Breath Biscuits
   - Doggy Trail Mix
   - Peanut Butter Nuggets
+  - Turkey Jerky
 extra:
   weight: 16 oz
   dimensions: 3.5 x 2.4 x 6.8 in

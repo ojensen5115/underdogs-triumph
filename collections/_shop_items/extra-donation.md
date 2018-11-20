@@ -1,6 +1,6 @@
 ---
 name: Extra Donation
-price: 500
+price: 5
 summary: Please contact us if the amount you’d like to donate is not available.
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: Chapstick
-price: 500
+price: 5
 summary: Flavored homemade chapstick for humans!
 options:
   - Black Cherry

@@ -1,6 +1,6 @@
 ---
 name: Specialized Note
-price: 100
+price: 1
 summary: Add a specialized note with your care package!
 extra:
   weight: 1 oz

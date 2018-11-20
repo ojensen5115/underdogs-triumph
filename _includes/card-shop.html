@@ -20,7 +20,7 @@
     <div class="post-card__header">
       <h2>{{ item.name | strip_html | truncate: 50 }}</h2>
       <span class="post-card__meta">
-        <time>{{ item.price | money }}</time>
+        <time>${{ item.price }}.00</time>
       </span>
     </div>
     {% if item.summary %}

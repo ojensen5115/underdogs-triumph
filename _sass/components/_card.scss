@@ -96,3 +96,23 @@
     display: block;
   }
 }
+
+.post-card.four {
+  @include breakpoint($xl) {
+    width: 22.75%;
+    margin-right: 3%;
+
+    &:nth-child(3n+3) {
+      margin-right: 3%;
+    }
+
+    &:last-of-type,
+    &:nth-child(4n+4) {
+      margin-right: 0;
+    }
+  }
+
+  .post-card__header {
+    text-align: center;
+  }
+}

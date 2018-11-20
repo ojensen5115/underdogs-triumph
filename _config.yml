@@ -8,27 +8,28 @@ description: > # Meta description of Homepage
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://underdog.0x3c.net" # the base hostname & protocol for your site, e.g. http://example.com
 
+
 collections_dir: collections
 
 collections:
   people:
     output: true
-    permalink: /about/:name
+    permalink: /about/:name/
   training_options:
     output: true
-    permalink: /training/:name
+    permalink: /training/:name/
   shop_items:
     output: true
-    permalink: /shop/:name
+    permalink: /shop/:name/
   events:
     output: true
-    permalink: /events/:title
+    permalink: /events/:title/
   projects:
     output: true
-    permalink: /projects/:title
+    permalink: /projects/:title/
   posts:
     output: true
-    permalink: /blog/:title
+    permalink: /blog/:title/
 
 defaults:
   - scope:

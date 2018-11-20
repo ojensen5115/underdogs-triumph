@@ -1,6 +1,6 @@
 ---
 name: Canine Cookbook
-price: 1500
+price: 15
 summary: Delicious recipes to make your very own treats -- your furry friend will love these!
 extra:
   weight: 5.3 oz
