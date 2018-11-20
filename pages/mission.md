@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Mission & Projects
+permalink: /mission/
 ---
 
 # Mission
