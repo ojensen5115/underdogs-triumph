@@ -1,3 +1,6 @@
+all :
+	docker build -t underdog:latest . && docker run -p 3000:3000 -p 3001:3001 -v "$(PWD):/srv/jekyll" -it underdog gulp
+
 docker :
 	docker build -t underdog:latest .
 
