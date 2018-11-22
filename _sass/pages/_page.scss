@@ -101,3 +101,25 @@
     padding-top: 5em;
   }
 }
+
+.shop-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 0 auto;
+  margin-bottom: 2em;
+  position: relative;
+
+  .shop-image {
+    margin-right: 2em;
+    width: 30%;
+  }
+
+  .shop-controls {
+    width: calc(70% - 3em);
+  }
+
+  #add-to-cart {
+    position: absolute;
+    right: 0; bottom: 0;
+  }
+}

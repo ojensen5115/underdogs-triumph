@@ -1,6 +1,6 @@
 ---
 name: Megan Merner
-photo: /foo/bar.jpg
+# photo: megan
 order: 3
 ---
 

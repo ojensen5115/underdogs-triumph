@@ -296,3 +296,9 @@ function addErrorData( element, error ) {
 //         }
 //     } );
 // } );
+
+
+$('#add-to-cart').click(function(e) {
+    console.log(this);
+    alert('add to cart placeholder');
+});

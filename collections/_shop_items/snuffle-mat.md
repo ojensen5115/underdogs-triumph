@@ -1,6 +1,7 @@
 ---
 name: Snuffle Mat
 price: 15
+featured-img: snufflemat
 summary: Engage your dog mentally and physically by feeding them with a handmade colorful snuffle mat!
 extra:
   weight: 32 oz
@@ -11,4 +12,4 @@ These 12″ by 12″ fleece tied mats are a great way to engage your dog’s mos
 
 These mats can help slow down quick eaters! They can also help your dog become more active and mentally engaged, because your dog has to use their brain and nose for their food instead of just eating it out of a plain, boring bowl. They work for dogs of any size, age, or disability – my own dog who’s blind and deaf LOVES these!
 
-You can read more about snuffle mats here: http://www.paw5.us/blog/what-is-a-snuffle-mat/
+You can read more about snuffle mats here: [http://www.paw5.us/blog/what-is-a-snuffle-mat/](http://www.paw5.us/blog/what-is-a-snuffle-mat/)

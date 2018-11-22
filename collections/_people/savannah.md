@@ -1,6 +1,6 @@
 ---
 name: Savannah Thompson
-photo: /foo/bar.jpg
+# photo: savannah
 order: 2
 ---
 

@@ -178,6 +178,18 @@ gulp.task('img', function() {
     }))
     .pipe(gulp.dest('assets/img/pages'));
 
+  // people pages
+  gulp.src('_img/people/*.{png,jpg}')
+    .pipe($.responsive({
+      '*': [{width: 1920}]
+    }, {
+      quality: 70,
+      progressive: true,
+      withMetadata: false,
+      errorOnEnlargement: false
+    }))
+    .pipe(gulp.dest('assets/img/people'));
+
   // post pages
   return gulp.src('_img/posts/*.{png,jpg}')
     .pipe($.responsive({

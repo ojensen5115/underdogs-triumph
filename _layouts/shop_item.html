@@ -2,8 +2,19 @@
 layout: page
 ---
 
-<h1>{{ page.name }}</h1>
 
-<p>{{ page.summary }}</p>
+<div class="shop-block">
+    <div class="shop-image">
+        <img src="{{ site.baseurl }}/assets/img/shop/{{page.featured-img}}.jpg" onerror="this.src='https://placekitten.com/400/300'">
+    </div>
+    <div class="shop-controls">
+        <h1>{{ page.name }}</h1>
+        <div class="price">{{ page.price | times: 100 | money }}</div>
+        <p>{{ page.summary }}</p>
+        <button id="add-to-cart" class="btn">Add to cart</button>
+    </div>
+</div>
+
 <hr>
-<p>{{ page.description }}</p>
+
+{{ content }}

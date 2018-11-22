@@ -1,6 +1,6 @@
 ---
 name: Oliver Jensen
-photo: /foo/bar.jpg
+photo: oliver
 order: 4
 ---
 

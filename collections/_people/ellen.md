@@ -1,6 +1,6 @@
 ---
 name: Ellen Hartstack
-photo: /foo/bar.jpg
+photo: ellen
 order: 1
 ---
 
