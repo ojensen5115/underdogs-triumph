@@ -17,7 +17,7 @@
     <div class="post-card__header">
       <h2>{{ item.name | strip_html | truncate: 50 }}</h2>
       <span class="post-card__meta">
-        <time>{{ item.price | times: 100 | money }}</time>
+        <span class="price-display" data-price="{{item.price}}"></span>
       </span>
     </div>
     {% if item.summary %}

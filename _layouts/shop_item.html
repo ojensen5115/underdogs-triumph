@@ -9,7 +9,7 @@ layout: page
     </div>
     <div class="shop-controls">
         <h1>{{ page.name }}</h1>
-        <div class="price">{{ page.price | times: 100 | money }}</div>
+        <div class="price-display" data-price="{{ page.price }}"></div>
         <p>{{ page.summary }}</p>
         <button id="add-to-cart" class="btn"
             data-name="{{ page.name }}"

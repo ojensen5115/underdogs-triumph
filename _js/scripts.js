@@ -298,6 +298,10 @@ function addErrorData( element, error ) {
 // } );
 
 
+$('.price-display').text(function(idx) {
+    return money(parseInt($(this).attr('data-price'), 10));
+});
+
 
 updateCartLink();
 
