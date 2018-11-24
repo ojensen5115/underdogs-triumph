@@ -311,7 +311,7 @@ $('#add-to-cart').click(function(e) {
     var price = parseFloat($(this).attr('data-price'));
     var image = $(this).attr('data-img');
     var url = $(this).attr('data-url');
-    addToCart(name, price);
+    addToCart(name, price, url);
 });
 
 function addToCart(name, price, url) {
@@ -330,7 +330,6 @@ function addToCart(name, price, url) {
             "url": url,
             "quantity": 1});
     }
-    cart.total += price;
 
     putCart(cart);
 }
@@ -342,8 +341,7 @@ function getCart() {
         cart = JSON.parse(unparsed);
     } catch (exception) {
         cart = {
-            "items": [],
-            "total": 0
+            "items": []
         };
         putCart(cart);
     }
@@ -397,7 +395,7 @@ function displayShoppingCart(cartDisplay) {
                     if ($(this).val() <= 0) {
                         cart.items.splice(i, 1);
                     } else {
-                        cart.items[i].quantity = $(this).val();
+                        cart.items[i].quantity = parseInt($(this).val(), 10);
                     }
                     putCart(cart);
                     displayShoppingCart(cartDisplay);
@@ -407,9 +405,15 @@ function displayShoppingCart(cartDisplay) {
         quantityCell.append(quantityNum);
 
         var row = $('<tr>')
-            .append($('<td>')
-                .append('<img src="https://placekitten.com/100/100">'))
-            .append($('<td>').text(cart.items[i].name))
+            .append($('<td>', {'style': 'width: 100px'})
+                .append($('<a>').attr('href', cart.items[i].url)
+                    .append('<img src="https://placekitten.com/100/100">')
+                )
+            )
+            .append($('<td>').append(
+                $('<a>').attr('href', cart.items[i].url).text(cart.items[i].name)
+                )
+            )
             .append($('<td>').text(money(cart.items[i].price)))
             .append(quantityCell);
 
