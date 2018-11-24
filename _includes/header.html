@@ -12,6 +12,11 @@
             <a class="header__link" href="{{ item.link | relative_url }}" itemprop="url">
               <span itemprop="name">{{ item.name }}</span>
             </a>
+            {% if item.name == "Shop" %}
+              <a class="header__link" href="{{ 'cart' | relative_url }}" itemprop="url">
+                <span itemprop="name"><i class="fas fa-shopping-cart"></i><span id="cart-count"></span></span>
+              </a>
+            {% endif %}
           {% endfor %}
         </div>
       </nav>

@@ -11,7 +11,11 @@ layout: page
         <h1>{{ page.name }}</h1>
         <div class="price">{{ page.price | times: 100 | money }}</div>
         <p>{{ page.summary }}</p>
-        <button id="add-to-cart" class="btn">Add to cart</button>
+        <button id="add-to-cart" class="btn"
+            data-name="{{ page.name }}"
+            data-price="{{ page.price }}"
+            data-url="{{ page.url }}"
+            data-img="{{ page.featured-img }}">Add to cart</button>
     </div>
 </div>
 

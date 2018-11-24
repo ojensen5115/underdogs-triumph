@@ -298,7 +298,124 @@ function addErrorData( element, error ) {
 // } );
 
 
+
+updateCartLink();
+
+
 $('#add-to-cart').click(function(e) {
-    console.log(this);
-    alert('add to cart placeholder');
+    var name = $(this).attr('data-name');
+    var price = parseFloat($(this).attr('data-price'));
+    var image = $(this).attr('data-img');
+    var url = $(this).attr('data-url');
+    addToCart(name, price);
 });
+
+function addToCart(name, price, url) {
+    var cart = getCart();
+    var placed = false;
+    for (var i = 0; i < cart.items.length; i++) {
+        if (cart.items[i].name == name) {
+            cart.items[i].quantity += 1;
+            placed = true;
+        }
+    }
+    if (!placed) {
+        cart.items.push({
+            "name": name,
+            "price": price,
+            "url": url,
+            "quantity": 1});
+    }
+    cart.total += price;
+
+    putCart(cart);
+}
+
+function getCart() {
+    var cart;
+    var unparsed = localStorage['cart'];
+    try {
+        cart = JSON.parse(unparsed);
+    } catch (exception) {
+        cart = {
+            "items": [],
+            "total": 0
+        };
+        putCart(cart);
+    }
+    return cart;
+}
+
+function putCart(cart) {
+    localStorage['cart'] = JSON.stringify(cart);
+    updateCartLink(cart);
+}
+
+function updateCartLink(cart) {
+    if (!cart) {
+        cart = getCart();
+    }
+    var num = 0;
+    for (var i = 0; i < cart.items.length; i++) {
+        num += cart.items[i].quantity;
+    }
+    var e = $('#cart-count');
+    e.text(num);
+    if (num == 0) {
+        e.hide();
+    } else {
+        e.show();
+    }
+}
+
+// on the shopping cart page, display the cart
+var cartDisplay = $('#cart-table-body');
+if (cartDisplay) {
+    displayShoppingCart(cartDisplay);
+}
+
+function displayShoppingCart(cartDisplay) {
+    cartDisplay.html('');
+    var cart = getCart();
+    var total = 0;
+    for (var i = 0; i < cart.items.length; i++) {
+
+        var quantityCell = $('<td>');
+
+        var quantityNum = $('<input type="number">')
+            .attr('data-name', cart.items[i].name)
+            .val(cart.items[i].quantity)
+            .change(function(e) {
+                var name = $(this).attr('data-name')
+                var cart = getCart();
+                for (var i = 0; i < cart.items.length; i++) {
+                    if (cart.items[i].name != name) continue;
+                    if ($(this).val() <= 0) {
+                        cart.items.splice(i, 1);
+                    } else {
+                        cart.items[i].quantity = $(this).val();
+                    }
+                    putCart(cart);
+                    displayShoppingCart(cartDisplay);
+                    break;
+                }
+            });
+        quantityCell.append(quantityNum);
+
+        var row = $('<tr>')
+            .append($('<td>')
+                .append('<img src="https://placekitten.com/100/100">'))
+            .append($('<td>').text(cart.items[i].name))
+            .append($('<td>').text(money(cart.items[i].price)))
+            .append(quantityCell);
+
+        cartDisplay.append(row);
+        total += (cart.items[i].quantity * cart.items[i].price);
+    }
+
+    $('#cart-total').text(money(total));
+}
+
+function money(dollars) {
+    return '$ ' + dollars.toFixed(2);
+}
