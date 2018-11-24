@@ -59,9 +59,9 @@ navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
   - {name: 'In-Home Training', link: '/training'}
-  - {name: 'Shop', link: '/shop'}
   - {name: 'Blog', link: '/blog'}
   - {name: 'Contact', link: '/contact'}
+  - {name: 'Shop', link: '/shop'}
 
 tagline: >
   Spreading positive and force free training to shelters, fosters and the general public.
