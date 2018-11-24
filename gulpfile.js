@@ -181,7 +181,12 @@ gulp.task('img', function() {
   // people pages
   gulp.src('_img/people/*.{png,jpg}')
     .pipe($.responsive({
-      '*': [{width: 1920}]
+      '*': [{
+        width: 191,
+        rename: {suffix: '_thumb'},
+      }, {
+        width: 1920
+      }]
     }, {
       quality: 70,
       progressive: true,

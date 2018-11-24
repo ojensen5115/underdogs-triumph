@@ -376,38 +376,37 @@ if (cartDisplay) {
     displayShoppingCart(cartDisplay);
 }
 
+function updateCartQuantity(event) {
+    var name = $(this).attr('data-name')
+    var cart = getCart();
+    for (var i = 0; i < cart.items.length; i++) {
+        if (cart.items[i].name != name) continue;
+        if ($(this).val() <= 0) {
+            cart.items.splice(i, 1);
+        } else {
+            cart.items[i].quantity = parseInt($(this).val(), 10);
+        }
+        putCart(cart);
+        displayShoppingCart(cartDisplay);
+        break;
+    }
+}
+
 function displayShoppingCart(cartDisplay) {
     cartDisplay.html('');
     var cart = getCart();
     var total = 0;
     for (var i = 0; i < cart.items.length; i++) {
 
-        var quantityCell = $('<td>');
-
-        var quantityNum = $('<input type="number">')
+        var quantitySelector = $('<input type="number">')
             .attr('data-name', cart.items[i].name)
             .val(cart.items[i].quantity)
-            .change(function(e) {
-                var name = $(this).attr('data-name')
-                var cart = getCart();
-                for (var i = 0; i < cart.items.length; i++) {
-                    if (cart.items[i].name != name) continue;
-                    if ($(this).val() <= 0) {
-                        cart.items.splice(i, 1);
-                    } else {
-                        cart.items[i].quantity = parseInt($(this).val(), 10);
-                    }
-                    putCart(cart);
-                    displayShoppingCart(cartDisplay);
-                    break;
-                }
-            });
-        quantityCell.append(quantityNum);
+            .change(updateCartQuantity);
 
         var row = $('<tr>')
             .append($('<td>', {'style': 'width: 100px'})
                 .append($('<a>').attr('href', cart.items[i].url)
-                    .append('<img src="https://placekitten.com/100/100">')
+                    .append('<img src="https://placedog.net/100/100">')
                 )
             )
             .append($('<td>').append(
@@ -415,9 +414,10 @@ function displayShoppingCart(cartDisplay) {
                 )
             )
             .append($('<td>').text(money(cart.items[i].price)))
-            .append(quantityCell);
+            .append($('<td>').append(quantitySelector))
 
         cartDisplay.append(row);
+
         total += (cart.items[i].quantity * cart.items[i].price);
     }
 

@@ -1,5 +1,5 @@
 ---
-layout: page-hero
+layout: page-hero-article
 title: Contact Us
 summary: >
   We'd love to hear from you!
