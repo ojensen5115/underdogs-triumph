@@ -83,8 +83,8 @@
     display: block;
     height: 0;
     width: 100%;
-    // 16:9 = 56.25% = calc(9 / 16 * 100%)
-    padding-bottom: 56.25%;
+    // 4:3 aspect ratio
+    padding-bottom: 75%;
   }
 
   > * {

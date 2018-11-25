@@ -182,7 +182,7 @@ gulp.task('img', function() {
   gulp.src('_img/shop/*.{png,jpg}')
     .pipe($.responsive({
       '*': [{
-        width: 191,
+        width: 257,
         rename: {suffix: '_thumb', extname: '.jpg'},
       }, {
         width: 100,
