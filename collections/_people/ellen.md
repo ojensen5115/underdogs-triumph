@@ -1,6 +1,6 @@
 ---
 name: Ellen Hartstack
-photo: ellen
+gravatar: 642ed3d5d9496b1f35fff21893eda099
 order: 1
 ---
 

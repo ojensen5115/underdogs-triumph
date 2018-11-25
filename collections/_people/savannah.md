@@ -1,6 +1,6 @@
 ---
 name: Savannah Thompson
-# photo: savannah
+gravatar: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 order: 2
 ---
 

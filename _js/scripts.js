@@ -404,7 +404,7 @@ function displayShoppingCart(cartDisplay) {
             .change(updateCartQuantity);
 
         var row = $('<tr>')
-            .append($('<td>', {'style': 'width: 100px'})
+            .append($('<td>', {'style': 'width: 100px; padding: 0'})
                 .append($('<a>').attr('href', cart.items[i].url)
                     .append('<img src="https://placedog.net/100/100">')
                 )
