@@ -178,12 +178,15 @@ gulp.task('img', function() {
     }))
     .pipe(gulp.dest('assets/img/pages'));
 
-  // people pages
-  gulp.src('_img/people/*.{png,jpg}')
+  // shop pages
+  gulp.src('_img/shop/*.{png,jpg}')
     .pipe($.responsive({
       '*': [{
         width: 191,
-        rename: {suffix: '_thumb'},
+        rename: {suffix: '_thumb', extname: '.jpg'},
+      }, {
+        width: 100,
+        rename: {suffix: '_cart', extname: '.jpg'},
       }, {
         width: 1920
       }]
@@ -191,9 +194,11 @@ gulp.task('img', function() {
       quality: 70,
       progressive: true,
       withMetadata: false,
-      errorOnEnlargement: false
+      errorOnEnlargement: false,
+      format: 'jpeg',
+      rename: {extname: '.jpg'}
     }))
-    .pipe(gulp.dest('assets/img/people'));
+    .pipe(gulp.dest('assets/img/shop'));
 
   // post pages
   return gulp.src('_img/posts/*.{png,jpg}')

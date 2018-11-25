@@ -1,6 +1,7 @@
 ---
 name: Paracord Leash
 price: 15
+image: paracord
 summary: A handmade braided paracord dog leash available in a variety of different colors!
 options:
   - Short Leash (3-4 feet)

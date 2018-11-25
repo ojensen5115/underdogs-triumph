@@ -1,8 +1,8 @@
 ---
 name: Canine Cookbook
 price: 15
+image: cookbook
 summary: Delicious recipes to make your very own treats -- your furry friend will love these!
-image: https://placedog.net/500/350
 extra:
   weight: 5.3 oz
   dimensions: 6 x 0.2 x 9 in

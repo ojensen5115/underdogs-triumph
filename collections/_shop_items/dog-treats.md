@@ -1,6 +1,7 @@
 ---
 name: Dog treats
 price: 5
+image: dogtreats
 summary: These homemade dog treats are made to order and come in three tasty varieties!
 options:
   - Better Breath Biscuits

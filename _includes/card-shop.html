@@ -1,22 +1,23 @@
-<div class="post-card" itemprop="blogPosts" itemscope="" itemtype="http://schema.org/BlogPosting">
+<div class="shop-card" itemprop="" itemscope="" itemtype="http://schema.org/Offer">
   <a href="{{ item.url | relative_url }}">
-    {% if item.featured-img %}
-      <figure class="post-card__thumb">
+    {% if item.image %}
+      <figure class="shop-card__thumb">
         <img
-          src="{{ site.baseurl }}/assets/img/shop/{{item.featured-img}}.jpg"
+          itemprop="image"
+          src="{{ site.baseurl }}/assets/img/shop/{{item.image}}_thumb.jpg"
           alt="{{item.title}}"
         />
       </figure>
     {% else %}
-      <figure class="post-card__thumb">
+      <figure class="shop-card__thumb">
         <div class="dark-bg"></div>
       </figure>
     {% endif %}
   </a>
-  <a class="post-card__inner" href="{{ item.url | relative_url }}">
-    <div class="post-card__header">
+  <a class="shop-card__inner" href="{{ item.url | relative_url }}">
+    <div class="shop-card__header">
       <h2>{{ item.name | strip_html | truncate: 50 }}</h2>
-      <span class="post-card__meta">
+      <span class="shop-card__meta">
         <span class="price-display" data-price="{{item.price}}"></span>
       </span>
     </div>

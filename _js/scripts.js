@@ -311,10 +311,10 @@ $('#add-to-cart').click(function(e) {
     var price = parseFloat($(this).attr('data-price'));
     var image = $(this).attr('data-img');
     var url = $(this).attr('data-url');
-    addToCart(name, price, url);
+    addToCart(name, price, image, url);
 });
 
-function addToCart(name, price, url) {
+function addToCart(name, price, image, url) {
     var cart = getCart();
     var placed = false;
     for (var i = 0; i < cart.items.length; i++) {
@@ -327,6 +327,7 @@ function addToCart(name, price, url) {
         cart.items.push({
             "name": name,
             "price": price,
+            "image": image,
             "url": url,
             "quantity": 1});
     }
@@ -405,8 +406,8 @@ function displayShoppingCart(cartDisplay) {
 
         var row = $('<tr>')
             .append($('<td>', {'style': 'width: 100px; padding: 0'})
-                .append($('<a>').attr('href', cart.items[i].url)
-                    .append('<img src="https://placedog.net/100/100">')
+                .append($('<a>', {'style': 'text-decoration: none'}).attr('href', cart.items[i].url)
+                    .append($('<img>').attr('src', '/assets/img/shop/' + cart.items[i].image + '_cart.jpg'))
                 )
             )
             .append($('<td>').append(

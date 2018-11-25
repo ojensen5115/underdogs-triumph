@@ -5,7 +5,7 @@ layout: page
 
 <div class="shop-block">
     <div class="shop-image">
-        <img src="{{ site.baseurl }}/assets/img/shop/{{page.featured-img}}.jpg" onerror="this.src='https://placedog.net/400/300'">
+        <img src="{{ site.baseurl }}/assets/img/shop/{{page.image}}.jpg" onerror="this.src='https://placedog.net/400/300'">
     </div>
     <div class="shop-controls">
         <h1>{{ page.name }}</h1>
@@ -15,7 +15,7 @@ layout: page
             data-name="{{ page.name }}"
             data-price="{{ page.price }}"
             data-url="{{ page.url }}"
-            data-img="{{ page.featured-img }}">Add to cart</button>
+            data-img="{{ page.image }}">Add to cart</button>
     </div>
 </div>
 
