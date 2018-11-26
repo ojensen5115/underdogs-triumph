@@ -297,6 +297,9 @@ function addErrorData( element, error ) {
 //     } );
 // } );
 
+function money(dollars) {
+    return '$ ' + dollars.toFixed(2);
+}
 
 $('.price-display').text(function(idx) {
     return money(parseInt($(this).attr('data-price'), 10));
@@ -406,7 +409,7 @@ function displayShoppingCart(cartDisplay) {
 
         var row = $('<tr>')
             .append($('<td>', {'style': 'width: 100px; padding: 0'})
-                .append($('<a>', {'style': 'text-decoration: none'}).attr('href', cart.items[i].url)
+                .append($('<a>').attr('href', cart.items[i].url)
                     .append($('<img>').attr('src', '/assets/img/shop/' + cart.items[i].image + '_cart.jpg'))
                 )
             )
@@ -425,6 +428,9 @@ function displayShoppingCart(cartDisplay) {
     $('#cart-total').text(money(total));
 }
 
-function money(dollars) {
-    return '$ ' + dollars.toFixed(2);
+var cartHiddenInput = $('#cart-input');
+if (cartHiddenInput) {
+    console.log('hi');
+    cartHiddenInput.val(JSON.stringify(getCart()));
+    $('#checkout-form').unbind('submit');
 }

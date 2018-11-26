@@ -100,6 +100,7 @@ exclude:
   - gulpfile.js
   - sleek.jpg
   - CNAME
+  - lambda
 
 include: ['_pages']
 permalink: /:title/
