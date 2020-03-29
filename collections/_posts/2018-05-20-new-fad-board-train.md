@@ -19,7 +19,7 @@ Is your slightly timid or reactive dog having their symptoms masked using punish
 
 Case in point, a recent news story about 41 dogs who were rescued from a kennel in Hancock, Iowa supposedly doing board & train for gun dogs. Three dogs were also found deceased with their owners having never been notified. Many others supposedly being trained at the facility shipped in from all areas of the country are still missing. There fate remains unknown. Of the dogs who were rescued, their kennels were completely lacking any food or water. The build up of feces in the kennels proved they’d been living in these poor conditions for some time.
 
-You can read more about the developing Young Gunz Kennel story here: http://www.omaha.com/news/iowa/officials-find-dogs-dead-in-poor-health-at-pottawattamie-county/article_f348a5b8-dbf1-5ff3-8de5-71d7459f35c4.html
+You can read more about the developing Young Gunz Kennel story here: ([here](http://www.omaha.com/news/iowa/officials-find-dogs-dead-in-poor-health-at-pottawattamie-county/article_f348a5b8-dbf1-5ff3-8de5-71d7459f35c4.html))
 
 On top of all these issues, these programs cost thousands of dollars. Even Young Gunz Kennel charges $550 per month for a facility that can’t even provide the basics of food, water and clean shelter to the dogs in their care.
 

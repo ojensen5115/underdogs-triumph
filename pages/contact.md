@@ -11,8 +11,8 @@ We believe that working together we can help end dog overpopulation, improve the
 
 <address>
 Underdogs’ Triumph<br>
-8 Worth St,<br>
-Luther, Iowa, 50152<br><br>
+1855 240th St,<br>
+Jefferson, Iowa, 50129<br><br>
 </address>
 
 
