@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Questions to Ask Your Dog Trainger
+title: Questions to Ask Your Dog Trainer
 # summary: Here's a quick summary of the post
 author: Ellen
-featured-img:
+featured-img: questions-to-ask-dog-trainer
 categories: [Training]
 ---
 
