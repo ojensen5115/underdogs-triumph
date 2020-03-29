@@ -1,0 +1,30 @@
+---
+layout: post
+title: Traveling with your Pets
+# summary: Here's a quick summary of the post
+author: Ellen
+featured-img: traveling_with_your_pets
+categories: [Boarding, Travel]
+---
+
+This week I’m on vacation out on the lovely, surface of the sun, Death Valley. While out here in the blistering of temps, I do think back to my own three furry canine companions and wonder what they’re doing while I’m away. Did I get them the a responsible pet setter? Are they thinking about how I have clearly abandoned them forever? Are they happy, healthy and well cared for?
+
+Stress in leaving your canine companions behind is a real thing. Our day to day lives literally revolve around their care and well being. We make sure they get their breakfast and walk before work. We make sure we don’t stay too late at work or we make arrangements to have a neighbor or friend swing by to take care of them. Vacations too are no easy task. We have to decide whether to take them with us, leave them with a friend or family member, board them, or have someone stay in our home while we are away.
+
+While out here, I marvel at those who have decided to take their pets with them. Out here, most of the national parks prohibit pets, so their canines are stuck in an unfamiliar hotel room all by themselves. Others take their furry companions with them on the trails that are allowed and their fur-ladened companion looks even more miserable than I did hiking back up and out of the canyon during the 108 “dry” heat.
+
+You know your pet best and you alone get to decide their how they are cared for. But do try to think about your vacation from their prospective. While it’s easy for us to understand that this vacation away from home is only temporary. We know this blistering heat will soon be relieved by an full powered AC drive back to the hotel. We can choose when we need to take a break on a hike, when we’re thirsty and more, but our canine companions are mostly just along for the ride. Seeing new sights and sounds can be fun for many, but scary for others.
+
+Whether staying at home or taking them with, make sure you have all their contact information on their tags updated. It’s easy for a pet in a new area to get lost or confused about where their “home” is. Microchipping, where a small grain of rice sized computer chip is placed under the back of the skin, can greatly assist in the reuniting of a lost pet. These can be digitally scanned by special readers that can give full contact info and medical issues the pet might have to the device that scans them. Plus microchips won’t fall off or get lost, like collars or harnesses. These are fairly affordable and most vets charge $20-$40 per chip and they last the pets lifetime.
+
+If you’re traveling via airport, some airlines to allow pets to make the journey as well for a fee. But these types of travels I would not recommend for your pet. Airplanes are loud, scary, environments for pets. There’s little “practice” you can do beforehand to help your pet get accustomed to the sounds, sights and smells before your grand adventure. And once you’re up in the sky, there’s little options for either of you if things go poorly.
+
+Options for pets flying via airfare is pretty limited. There’s either under the seat in front of you or under the plane in with the rest of the cargo. Both options can have severe, life threatening dangers for your pet. There have been numerous stories recently of dogs (and other pets) dying from stress, overheating or lack of oxygen on their flights. Short nosed breeds like pugs, boxers, shihtzus etc are most at risk due to the nature of how their face is structured which already restricts oxygen flow. Under the seat is cramped, overhead bins lack air flow, and cargo bays are devoid of people and cramped with luggage. Plus pets have to sit out on the tarmac in the hot sun or cold winter waiting to be loaded on with the rest of the luggage.
+
+If you decide to leave your pet at home, finding a family friend is normally the safest bet. Someone who can either stay with your pets in your home (most ideal) or someone who can take your pets with them to their home for the duration. It is helpful to have a pre-written care document that has all their critical information written out. Include things like feeding instructions, medical applications, walks, cues they know, emergency contact info and vet/hospital numbers and addresses. Having this document can assure that your caretaker will know what to do should something happen.
+
+Options like Rover.com are popular if you’re new to an area or your friends and family cannot take your pets. This online service matches you with a nearby pet sitter who can swing by for visits each day, perform daily walks and/or stay with your pets the entire vacation. I’ve used Rover a few times now, and have had mixed successes. Some of the folks on there are very reputable and perform their duties exactly as described, others take a more lenient route and show up just when they’re needed to let the dogs out and then return back to their own homes.
+
+Boarding should be done selectively as many boarding facilities are ill equipped to deal with shy, fearful or elderly pets. Boarding facilities can be loud, busy places that can easily overwhelm the nervous, frighten older or handicapped pets. Make sure when selecting a boarding facility you ask around to get where other’s board their pets and tour the facility well in advance of your trip so you can switch if necessary. Word of mouth and recommendations from friends work well for weeding out the good and the bad facilities.
+
+Travel, for business or pleasure, happens, and as a pet owner we need to make sure that we have a blast and so do our pets. Ensuring their basic needs are cared for and they are safe and secure will help ease your mind while you’re away. Enjoy yourself, relax a bit, and take a break from the daily tasks of pet care.
