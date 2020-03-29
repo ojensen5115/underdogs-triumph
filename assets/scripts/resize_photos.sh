@@ -12,11 +12,11 @@ orig_photo_name=$1
 
 #Variables:
 #Maximum Placeholder Size
-max_p_height=300
-max_p_width=200
+max_p_width=680
+max_p_height=480
 #Maximum Thumbnail Sizes:
-max_t_height=100
-max_t_width=100
+max_t_width=300
+max_t_height=300
 
 #Check if file name exists.
 if [ ! -f "$orig_photo_name" ]; then
