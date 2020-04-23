@@ -7,7 +7,7 @@ featured-img: dog-wont-take-treats
 categories: [Positive Training]
 ---
 
-I’ve seen the above statement used and said frequently by my dog clients (and defenders of “balanced” dog training – see my post about “balanced” training [here](/blog/choosing-a-dog-training-method/)). They have a dog or are working with a dog who actively refuses to eat whatever treats you are providing to them as reward for doing the desired behavior. Let’s look at some of the reasons why that might be.
+I’ve seen the above statement used and said frequently by my dog clients (and defenders of “balanced” dog training – see my post about “balanced” training (see [Choosing a Dog Training Method]({{ "/blog/choosing-a-dog-training-method" | relative_url }})). They have a dog or are working with a dog who actively refuses to eat whatever treats you are providing to them as reward for doing the desired behavior. Let’s look at some of the reasons why that might be.
 
 First, let’s back up a bit and look at why we positive trainers typically use food in the first place. Simply put: All creatures need to eat food. As responsible owners of our dogs it’s our duty to provide food to our canine partners. Food is therefore a desired resource and we fulfill this need of our dog making us too a valuable resource. Once dogs learn that good behavior gets them rewarded, they will repeat the good behavior more frequently in the hopes it too will bring about rewards! Basic learning theory.
 

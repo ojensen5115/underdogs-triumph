@@ -1,0 +1,28 @@
+---
+layout: post
+title: My Crossover Journey
+# summary: Here's a quick summary of the post
+author: Ellen
+featured-img: crossover-journey
+categories: [Crossover, Positive Training, Punishment]
+---
+
+A wanted to share with you folks how I came to be the passionate force & pain free dog trainer I am today. Believe it or not, I started out a lot like many of you folks are now. I used to believe that you needed to be a “balanced” trainer, that there were some stubborn dogs who needed a strong hand to guide them to the right decision. I used leash corrections and tools to control dogs because I thought that’s what you HAD to do to train them. You were the human, and they the dog, so you had to show them who the boss was and then they’d respect you.
+
+Now I’m what you call a crossover trainer. A crossover trainer is someone used to train dogs using something other than positive reinforcement and force free methods and now they have more scientific based, positive, fun approach to dog training.
+
+Growing up, I had always been an animal lover even before I can remember. My parents have loads of pictures of me playing with all sorts of critters from cows to dogs to kittens. I used to daydream all the time about me suddenly getting the power to speak to animals. I was just fascinated by them how they moved and how they communicated with each other without any words. It blew my mind.
+
+When I was a bit older in high school, I read dog books about training and learned as much as I could on the subject. Then I found Cesar Milan on National Geographic channel. I watched this man take a dog and within a few (television) minutes completely transform him or her into a seemingly well behaved house pet. This, I told myself, this is how you do it. This gets results. So I read up on him. I read his books, I read his blogs, I watched all his episodes on television. This reasoning about showing the dog who the pack leader was seemed to make sense. After all, I wanted to be a good leader. I wanted the dog to respect me. I was sure that his way was the only way to get results.
+
+Then I got my first dogs, Rufus and Esther. Rufus was 100% old man, so relatively easy to manage. He required little to no effort. I started off in an apartment so there was a wee bit of potty training, but other than that he was golden. I saw folks that would have their dog auto sit at each curb and determined that was what I wanted Rufus to do. So I’d stand at each corner and pull up on the collar until in confusion eventually he’d sit. We “practiced” for weeks and he didn’t really get it. Every corner required a pop of the collar or pushing his but down, and walks became more frustrating than fun.
+
+Then I a few months later, I got Esther. Despite her old sounding name, Esther was a six month old, 100% puppy, Jack Russel spitfire (seriously why did no one warn me?!?). So I tried what I saw Cesar do. I tried what I had read about and seen on his show.  And it kinda worked, but made me feel horrible. Enthusiastic pup would run up to the end of the leash, after some squirrel or a leaf, or a bit of grass whatever, and I jerk the collar (a pop) and maybe, maybe she’d turn back towards me. But again, walks became terrible. She’d never listen, just run off. And I started resorting to more severe punishments thinking I was being as strong of a leader and that Esther was willingly not listening because she didn’t listen to me. The jerks on the collar got stronger and the puppy got more out of control.
+
+Then I met a wonderful lady named Lindsey who I met in a consultation to see if Esther could be brave enough to try out agility. Lindsey handed me a clicker and showed me how to use it. She clicked it and Esther ran for the hills. TOO SCARY. I thought this is silly, toss your little metal clicker out and we’ll just go back to doing it the way I’m comfortable. And to be honest, that probably would have been easier (for me) to do. Doing things the same way IS easy. It’s safe. No risk. Changing it up and trying something new, is scary!
+
+But I stuck with it. We started by swapping out the metal clicker to a plastic clicker and hiding it in my sweatshirt. Then eventually I started to see a change in Esther. Her expression would change after every click and you could see her building up the anticipation of getting the reward. Teaching her new things started to actually be fun and while slow at first, I was shocked at how quickly she’d learn new crazy things. I started to enjoy thinking up new ways to get her to do a bizarre behavior (like running over a teeter totter) and Esther started to gain confidence to do such crazy agility things like I never saw. My dog became braver!
+
+I was pretty much hooked. I looked forward to every Saturday running around with my friends and their dogs on the agility course and the fact that Esther would easily sleep for 4-6 hours afterwards certainly didn’t hurt either 😉
+
+From there on, the rest is history. I started reading more scientifically based articles and books about dog training. Then researched, applied and was accepted into the CATCH Professional Dog Training program and this weekend I will be taking the final test to receive my certification as a professional dog training. I’ve learned so much in my journey and I LOVE sharing my knowledge and experiences with others. I hope you all have enjoyed learning a bit about how I got to where I’m at today in dog training. If you ever have any questions about my journey or your own, please don’t hesitate to ask!

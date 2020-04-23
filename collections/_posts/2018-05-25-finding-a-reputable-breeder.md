@@ -7,7 +7,7 @@ featured-img: finding-a-reputable-breeder
 categories: [Adoption, Breeders]
 ---
 
-I have written in the past about where you should get your next furry family member from ([see post about Puppies here](https://www.underdogstriumph.org/puppies-galore/)) but I know that some folks still desire the “purebred” puppy route. While there are tons, and tons of puppies (and dogs!) available at your local shelter, you might need to be patient and search a larger area to find one that meets your lifestyle and desires for a companion. I will always say **save a life** and adopt your next family member.
+I have written in the past about where you should get your next furry family member from [see Puppies Galore!]({{ "/blog/puppies-galore" | relative_url }}) but I know that some folks still desire the “purebred” puppy route. While there are tons, and tons of puppies (and dogs!) available at your local shelter, you might need to be patient and search a larger area to find one that meets your lifestyle and desires for a companion. I will always say **save a life** and adopt your next family member.
 
 There are so many terrible dog breeders out there that it’s difficult to determine even where to begin if you do decide to purchase a dog or puppy. Some reasons for doing so might be if you desire to show a dog or compete in certain dog competitions that require a “purebred” dog. I use “purebred” in quotes only because a lot of the so call purebred dog that are acquired from these unreputable breeders are anything but.
 

@@ -3,13 +3,13 @@ layout: post
 title: Questions to Ask Your Dog Trainer
 # summary: Here's a quick summary of the post
 author: Ellen
-featured-img: questions-to-ask-dog-trainer
+featured-img: questions-to-ask-your-dog-trainer
 categories: [Training]
 ---
 
-In the past I have written about how to find a good dog trainer ([see my past post here](https://www.underdogstriumph.org/how-do-i-find-a-good-trainer/)). First off, I *love* it when my prospective clients ask me questions about my methods and techniques *before* agreeing to see me in person. I also truth be told, I do the same thing to them. At Underdog’s Triumph we start off all new clients with a consultation visit. This 1 to 1.5 hour visit includes a pre-questionnaire detailing what the client and their furry friend are experiencing and goes briefly into what they want to get from the training. Then that first session is almost entirely a question/answer and discussion session.
+In the past I have written about how to find a good dog trainer [“How to find a Good Dog Trainer”]({{ "/blog/how-do-I-find-a-good-dog-trainer/" | relative_url }}). First off, I *love* it when my prospective clients ask me questions about my methods and techniques *before* agreeing to see me in person. I also truth be told, I do the same thing to them. At Underdog’s Triumph we start off all new clients with a consultation visit. This 1 to 1.5 hour visit includes a pre-questionnaire detailing what the client and their furry friend are experiencing and goes briefly into what they want to get from the training. Then that first session is almost entirely a question/answer and discussion session.
 
-So many people want to just jump right in. Start training on day one. But I firmly believe that every dog, must like every client, is different. It’s important to hear them out and make sure they are comfortable with the decisions you are making together for their family. While I have a boatload of questions I like to ask my prospective clients to learn all about their situation, experiences with dogs and training, there are also some great questions to ask me as your prospective trainer! You can read more about these questions and other questions from Victoria Stilwell’s article about [“How to find a Good Dog Trainer”](https://positively.com/dog-training/find-a-trainer/how-to-choose-a-good-dog-trainer/) I picked out my top four favorites from the article to share my opinion on what would be a good response!
+So many people want to just jump right in. Start training on day one. But I firmly believe that every dog, must like every client, is different. It’s important to hear them out and make sure they are comfortable with the decisions you are making together for their family. While I have a boatload of questions I like to ask my prospective clients to learn all about their situation, experiences with dogs and training, there are also some great questions to ask me as your prospective trainer! You can read more about these questions and other questions from Victoria Stilwell’s article about [“How to choose a Good Dog Trainer”](https://positively.com/dog-training/find-a-trainer/how-to-choose-a-good-dog-trainer/) I picked out my top four favorites from the article to share my opinion on what would be a good response!
 
 
 # Questions to Ask Your Prospective Trainer:
@@ -56,4 +56,4 @@ Ideal Response:
 More Info: I typically have ask past clients if they would be able to chat with new clients when requested. I like to pair past clients with potential clients based on the issue both dealt with. For example I did some new puppy socialization classes a while back, pairing up this client to a client with a fear aggressive dog would just be silly. The situations aren’t the same and the training for sure won’t be either. Apples to Apples works much better.
 
 
-I strongly encourage you all to check out the article above ([“How to find a Good Dog Trainer”](https://www.underdogstriumph.org/how-do-i-find-a-good-trainer/)) it has loads of great advice about finding the perfect fit trainer for you situation. And as always if you have questions, we’d love to hear from you :)
+I strongly encourage you all to check out the article above [“How to find a Good Dog Trainer”]({{ "/blog/how-do-I-find-a-good-dog-trainer/" | relative_url }}) it has loads of great advice about finding the perfect fit trainer for you situation. And as always if you have questions, we’d love to hear from you :)

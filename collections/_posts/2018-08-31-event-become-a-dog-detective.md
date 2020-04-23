@@ -34,4 +34,4 @@ Through interactive discussions, the children (and parents) will learn how to se
 
 If you and your child are interested in joining us, please use the link below to register for this free program: [Sign up here](https://www.allforgood.org/projects/9kA6O2Qz).
 
-If you are interested in hosting another event similar to or like this, please use our [contact form](/contact) to set something up. We’re eager to work with other organizations, like schools and libraries to get this important information out there!
+If you are interested in hosting another event similar to or like this, please use our [contact form]({{ "/contact" | relative_url }}) to set something up. We’re eager to work with other organizations, like schools and libraries to get this important information out there!
