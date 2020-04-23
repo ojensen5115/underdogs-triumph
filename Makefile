@@ -1,26 +1,26 @@
 all :
-	docker build -t underdog:latest . && docker run -p 3000:3000 -p 3001:3001 -v "$(PWD):/srv/jekyll" -it underdog gulp
+	docker build -t underdog:latest . && docker run -p 3000:3000 -p 3001:3001 -v "$(shell pwd):/srv/jekyll" -it underdog bundle exec gulp
 
 docker :
 	docker build -t underdog:latest .
 
 run :
-	docker run -p 3000:3000 -p 3001:3001 -v "$(PWD):/srv/jekyll" -it underdog gulp
+	docker run -p 3000:3000 -p 3001:3001 -v "$(shell pwd):/srv/jekyll" -it underdog bundle exec gulp
 
 build:
-	docker run -v "$(PWD):/srv/jekyll" -it underdog gulp build
+	docker run -v "$(shell pwd):/srv/jekyll" -it underdog bundle exec gulp build
 
 js :
-	docker run -v "$(PWD):/srv/jekyll" -it underdog gulp js
+	docker run -v "$(shell pwd):/srv/jekyll" -it underdog bundle exec gulp js
 
 img :
-	docker run -v "$(PWD):/srv/jekyll" -it underdog gulp img
+	docker run -v "$(shell pwd):/srv/jekyll" -it underdog bundle exec gulp img
 
 clean :
-	docker run -v "$(PWD):/srv/jekyll" -it underdog gulp clean
+	docker run -v "$(shell pwd):/srv/jekyll" -it underdog bundle exec gulp clean
 
 deploy :
-	docker run -v "$(PWD):/srv/jekyll" -it underdog gulp deploy
+	docker run -v "$(shell pwd):/srv/jekyll" -it underdog bundle exec gulp deploy
 
 bash :
-	docker run -p 3000:3000 -p 3001:3001 -v "$(PWD):/srv/jekyll" -it underdog bash
+	docker run -p 3000:3000 -p 3001:3001 -v "$(shell pwd):/srv/jekyll" -it underdog bash

@@ -18,9 +18,9 @@ collections:
   training_options:
     output: true
     permalink: /training/:name/
-  shop_items:
-    output: true
-    permalink: /shop/:name/
+#  shop_items:
+#    output: true
+#    permalink: /shop/:name/
   events:
     output: true
     permalink: /events/:title/
@@ -45,14 +45,9 @@ defaults:
 
 # SEO PLUGIN
 social:
-  name: Oliver Jensen
+  name: Underdog's Triumph
   links:
-    - https://twitter.com/ojensen5115
-    - https://www.facebook.com/ojensen5115
-    - https://www.linkedin.com/in/ojensen5115
-    - https://plus.google.com/+OliverJensen5115
-    - https://github.com/ojensen5115
-    - https://keybase.io/ojensen
+    - https://www.facebook.com/UnderdogsTriumph
 
 # THEME SETTINGS
 navigation: # Navigation links
@@ -61,7 +56,7 @@ navigation: # Navigation links
   - {name: 'In-Home Training', link: '/training'}
   - {name: 'Blog', link: '/blog'}
   - {name: 'Contact', link: '/contact'}
-  - {name: 'Shop', link: '/shop'}
+#  - {name: 'Shop', link: '/shop'}
 
 tagline: >
   Spreading positive and force free training to shelters, fosters and the general public.
@@ -70,10 +65,10 @@ tagline: >
 hero_img: dogs.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 blog_img: blog.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
-email: ojensen5115@gmail.com # email for form submission
+email: contact@underdogstriumph.org # email for form submission
 
-twitter_username: ojensen5115 # replace with your_twitter_username or comment to remove link from footer
-github_username:  ojensen5115 # replace with your_github_username or comment to remove link from footer
+#twitter_username: ojensen5115 # replace with your_twitter_username or comment to remove link from footer
+#github_username:  ojensen5115 # replace with your_github_username or comment to remove link from footer
 #instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
 
 #disqus:

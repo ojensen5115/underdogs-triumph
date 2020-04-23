@@ -18,6 +18,4 @@ Jefferson, Iowa, 50129<br><br>
 
 {% include form.html %}
 
-Note: this form sends an email to [my personal email](mailto:{{site.email}})
-
 {% include modal.html %}

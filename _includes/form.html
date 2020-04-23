@@ -1,17 +1,34 @@
 <form id="contactForm" action="https://formspree.io/{{site.email}}" method="post" novalidate>
-  <div class="form__input half">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" autocomplete="name" required>
+  <div style="display: flex">
+    <div style="flex: 1; padding: 10px;">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" autocomplete="name" required>
+    </div>
+
+    <div style="flex: 1; padding: 10px;">
+      <label for="email">Email</label>
+      <input type="email" name="_replyto" id="email" autocomplete="email" required>
+    </div>
+
+    <div style="flex: 1; padding: 10px;">
+      <label for="email">Phone Number (optional)</label>
+      <input type="tel" name="phone">
+    </div>
   </div>
 
-  <div class="form__input input half">
-    <label for="email">Email</label>
-    <input type="email" name="_replyto" id="email" autocomplete="email" required>
+  <div style="margin-bottom: 10px">
+    <label for="email">Reason for contact:</label><br>
+    <select name="reason">
+      <option>Select</option>
+      <option value="question">General Question</option>
+      <option value="training: behavioral">Training: Behavioral Consulting</option>
+      <option value="training: obedience">Training: Obedience & Manners</option>
+    </select>
   </div>
 
-  <div class="form__input">
+  <div style="margin-bottom: 10px">
     <label for="message">Message</label>
-    <textarea type="text" name="message" id="message" rows="7" autocomplete="message" required></textarea>
+    <textarea type="text" name="message" id="message" rows="7" autocomplete="message" style="border: 1px solid #ddd; padding: 3px" required></textarea>
   </div>
 
   <input type="hidden" name="_subject" value="Website Form submission">

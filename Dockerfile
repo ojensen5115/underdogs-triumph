@@ -1,10 +1,10 @@
-FROM node
+FROM ubuntu
 
-# RUN apk update
-# RUN apk add ruby ruby-dev make g++
-
-RUN apt-get update && apt-get dist-upgrade -y
+RUN apt-get update
 RUN apt-get install -y ruby ruby-dev build-essential
+
+RUN apt-get install -y nodejs npm
+
 
 RUN mkdir -p /srv/jekyll
 WORKDIR /srv/jekyll
@@ -18,8 +18,10 @@ RUN bundle install
 
 WORKDIR /srv
 ADD package.json .
-ADD package-lock.json .
+#ADD package-lock.json .
 RUN npm install
 
 WORKDIR /srv/jekyll
-CMD gulp
+
+#CMD pwd && ls -a && gulp
+CMD bash

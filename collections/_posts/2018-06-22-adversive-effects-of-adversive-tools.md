@@ -11,6 +11,8 @@ At Underdog’s Triumph we believe in promoting (and using!) positive, force fre
 
 The prevalence of a popular dog show, The Dog Whisperer, (which I have written about in the past [here](https://www.underdogstriumph.org/has-cesar-millan-benefited-or-harm-the-dog-training-community/)) has revitalized a generation of up and coming dog trainers to the belief that dominance, pack theory and other outdated-no-longer-relevant theories are truth. They watch this show, see the super quick change in behavior and, despite the warning at the beginning of the show, try it on their own dogs. Even worse are the trainers who determine, they are not only experts at training their own dogs, but other dogs as well.
 
+![puppy face](/assets/img/WHATEvs/domestic-dog_thumb.ngsversion.1484159404151.adapt.1900.1.jpg)
+
 In my interactions with the various trainers in the area, I have run into many dog trainers with zero actual experience other than “working” with dogs for X years. Working and training are two vastly different things. And teaching people those skills is an even greater skill gap! The issue is due to a lack of education and understanding, these people continue to spout off outdated and incorrect information which owners accept as truth given they are coming from the mouth of a “professional.” Such things I’ve heard and seen recently include:
 
 - Alpha rolls to show an aggressive dog who’s the pack leader
